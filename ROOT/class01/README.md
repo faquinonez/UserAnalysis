@@ -4,17 +4,21 @@ Date: 2016-06-21
 
 In this classs we have several projects:
 
-* STLvector
+* STLdeque
 * STLlist
 * STLmap
-* STLset
 * STLmultimap
 * STLmultiset
+* STLqueue
+* STLset
+* STLstack
+* STLunordered_map
+* STLunordered_multimap
+* STLunordered_multiset
+* STLunordered_set
+* STLvector
 * TTreeFromDat1
 * TTreeFromDat2
-* TTreeFromDat3
-* TTreeFromDat4
-* TTreeFromDat5
 
 Each one have its own readme file.
 
