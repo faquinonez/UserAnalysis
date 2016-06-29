@@ -18,7 +18,6 @@ In this classs we have several projects:
 * STLunordered_set
 * STLvector
 * TTreeFromDat1
-* TTreeFromDat2
 
 Each one have its own readme file.
 
