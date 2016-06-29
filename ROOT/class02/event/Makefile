@@ -1,10 +1,7 @@
-# Makefile for the ROOT test programs.
 # This Makefile shows nicely how to compile and link applications
 # using the ROOT libraries on all supported platforms.
 #
-# Copyright (c) 2000 Rene Brun and Fons Rademakers
-#
-# Author: Fons Rademakers, 29/2/2000
+# Author: Fernando Quinonez, 2016/06/29
 
 RC     := root-config
 ifeq ($(shell which $(RC) 2>&1 | sed -ne "s@.*/$(RC)@$(RC)@p"),$(RC))
