@@ -1,0 +1,32 @@
+principal code that makes the histograms from trees.
+The way to use this code is to do:
+make 
+to compile, and
+./validagps tree1.root
+to run.
+
+
+In order to run over a big validagps of data, the idea is to do a validagps.txt with 
+all the trees and add at the begining of each 
+line 
+
+./validagps tree1.root
+./validagps tree2.root
+./validagps tree3.root
+./validagps tree4.root
+
+Then we must to change the validagps.txt by validagps.sh, and change the permissions
+by
+
+chmod ug+x validagps.sh
+
+after that we could run by making
+
+nohup ./validagps.sh &
+
+and click enter twice.
+Depending of the output registered in nohup.out after have run the project,
+we could rename this file as 
+
+mv nohup.out grl<DETECTOR><YEAR>.txt
+
